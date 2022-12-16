@@ -40,6 +40,7 @@ display: flex;
 flex-wrap: wrap;
 background-color: pink;
 padding-left: 70px;
+height: auto;
 }
 
 .flexbox-container > *:nth-child(1) {
@@ -64,73 +65,34 @@ padding-left: 70px;
 
 .flexbox-item-1 {
     min-height: 200px;
-    background-color: gray;
-    width: 350px;
-    margin: 10px;
-    border: 3px black;
-    transform: 150px, -50px;
+    width: 100%;
+    margin: 1px;
 }
 
 .flexbox-item-2 {
+    object-fit: cover;
     min-height: 200px;
-    background-color: darkblue;
-    width: 200px;
-    margin: 10px;
-    border: 3px black;
+    width: 100%;
+    margin: 1px;
 }
 
 .flexbox-item-3 {
     min-height: 200px;
-    background-color: bisque;
-    width: 200px;
-    margin: 10px;
-    border: 3px black;
+    width: 100%;
+    margin: 1px;
 }
 
 .flexbox-item-4 {
     min-height: 200px;
-    background-color: darkgreen;
-    width: 200px;
-    margin: 10px;
-    border: 3px black;
+    width: 100%;
+    margin: 1px;
 }
 
 .flexbox-item-5 {
     min-height: 200px;
-    background-color: darkred;
-    width: 200px;
-    margin: 10px;
-    border: 3px black;
+    width: 100%;
+    margin: 1px;
 }
-
-.image-1 { 
-    background-color: brown;
-    order: 0; 
-}
-
-.image-2 { 
-    background-color: darkblue;
-    order 2; 
-}
-.image-3 { 
-    background-color:burlywood;
-    order 3; 
-}
-.image-4 { 
-    background-color:darkgreen;
-    order 4; 
-}
-.image-5 { 
-    background-color:indigo;
-    order 5; 
-}
-
-.image-group {
-    display: flex;
-    flex: auto;
-    justify-content: space-around;
-}
-
 
 .bottom-section {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
