@@ -1,3 +1,22 @@
+a:link {
+    color: rgb(76, 170, 203);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(76, 170, 203);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(11, 72, 123);
+  } 
+
 .top-section {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(27, 64, 91);
@@ -75,25 +94,48 @@ height: auto;
     min-height: 200px;
     width: 100%;
     margin: 1px;
+    opacity: 80%;
+}
+
+.flexbox-item-1:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 .flexbox-item-2 {
-    object-fit: cover;
     min-height: 200px;
     width: 100%;
     margin: 1px;
+    opacity: 80%;
+}
+
+.flexbox-item-2:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 .flexbox-item-3 {
     min-height: 200px;
     width: 100%;
     margin: 1px;
+    opacity: 80%;
+}
+
+.flexbox-item-3:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 .flexbox-item-4 {
     min-height: 200px;
     width: 100%;
     margin: 1px;
+    opacity: 80%;
+}
+
+.flexbox-item-4:hover {
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 .bottom-section {
