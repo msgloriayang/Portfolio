@@ -1,0 +1,142 @@
+.top-section {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(160, 191, 213);
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.about-me {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(160, 191, 213);
+    display: flex;
+}
+
+.am-details {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(160, 191, 213);
+    flex: 1;
+    padding-left: 30px;
+}
+
+.work {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(160, 191, 213);
+    display: flex;
+} 
+
+.flexbox-container {
+display: flex;
+flex-wrap: wrap;
+background-color: pink;
+padding-left: 70px;
+}
+
+.flexbox-container > *:nth-child(1) {
+    flex: 1 1 70%;
+}
+
+.flexbox-container > *:nth-child(2) {
+    flex: 1 1 40%;
+}
+
+.flexbox-container > *:nth-child(3) {
+    flex: 1 1 40%;
+}
+
+.flexbox-container > *:nth-child(4) {
+    flex: 1 1 40%;
+}
+
+.flexbox-container > *:nth-child(5) {
+    flex: 1 1 40%;
+}
+
+.flexbox-item-1 {
+    min-height: 200px;
+    background-color: gray;
+    width: 350px;
+    margin: 10px;
+    border: 3px black;
+    transform: 150px, -50px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    background-color: darkblue;
+    width: 200px;
+    margin: 10px;
+    border: 3px black;
+}
+
+.flexbox-item-3 {
+    min-height: 200px;
+    background-color: bisque;
+    width: 200px;
+    margin: 10px;
+    border: 3px black;
+}
+
+.flexbox-item-4 {
+    min-height: 200px;
+    background-color: darkgreen;
+    width: 200px;
+    margin: 10px;
+    border: 3px black;
+}
+
+.flexbox-item-5 {
+    min-height: 200px;
+    background-color: darkred;
+    width: 200px;
+    margin: 10px;
+    border: 3px black;
+}
+
+.image-1 { 
+    background-color: brown;
+    order: 0; 
+}
+
+.image-2 { 
+    background-color: darkblue;
+    order 2; 
+}
+.image-3 { 
+    background-color:burlywood;
+    order 3; 
+}
+.image-4 { 
+    background-color:darkgreen;
+    order 4; 
+}
+.image-5 { 
+    background-color:indigo;
+    order 5; 
+}
+
+.image-group {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+
+
+.bottom-section {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(160, 191, 213);
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
