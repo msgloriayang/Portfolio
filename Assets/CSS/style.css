@@ -1,7 +1,6 @@
-@media (min-width: 800px) {
+@media (min-width: 800px)
     body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-line-height: 1.5rem;
-}
+line-height: 1.5rem;}
 
 a:link {
     color: rgb(76, 170, 203);
