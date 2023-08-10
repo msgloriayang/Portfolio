@@ -1,5 +1,5 @@
 @media (min-width: 800px)
-    body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    body {font-family:'Playfair';
 line-height: 1.5rem;}
 
 a:link {
@@ -22,7 +22,7 @@ a:link {
   } 
 
 .top-section {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Playfair';
     color:rgb(27, 64, 91);
     background-color:rgb(236, 242, 246);
     flex-direction:row;
@@ -30,7 +30,9 @@ a:link {
     align-items: center;
     justify-content: space-between;
 }
-
+h1 {
+    font-family:'Playfair Regular';
+}
 ul {
     list-style: none;
 }
@@ -42,13 +44,13 @@ li {
 
 .about-me {
     background-color:rgb(236, 242, 246);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Playfair';
     color:rgb(27, 64, 91);
     display: flex;
 }
 
 .am-details {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Playfair';
     color:rgb(27, 64, 91);
     flex: 1;
     padding-left: 30px;
@@ -61,7 +63,7 @@ li {
 }
 
 .work {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Playfair';
     color:rgb(27, 64, 91);
     background-color:rgb(160, 191, 213);
     display: flex;
@@ -143,7 +145,7 @@ height: auto;
 }
 
 .bottom-section {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Playfair';
     color:rgb(27, 64, 91);
     background-color:rgb(236, 242, 246);;
     flex-direction:row;
